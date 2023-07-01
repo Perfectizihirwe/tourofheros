@@ -1,0 +1,7 @@
+<ul *ngIf="topHeroes">
+  <li *ngFor="let hero of topHeroes">
+    <button routerLink="/detail/{{ hero.id }}">
+      {{ hero.name }}
+    </button>
+  </li>
+</ul>
