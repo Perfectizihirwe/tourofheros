@@ -1,0 +1,9 @@
+.heros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.selected {
+  background-color: aqua;
+}
